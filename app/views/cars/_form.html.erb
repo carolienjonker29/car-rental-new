@@ -1,0 +1,7 @@
+<%= form_for(@car) do |f| %>
+<li>  <%= f.label :size %>
+  <%= f.text_field :size %></li>
+<li>  <%= f.label :availability %>
+    <%= f.text_field :availability %></li>
+<%= f.submit %>
+<% end %>

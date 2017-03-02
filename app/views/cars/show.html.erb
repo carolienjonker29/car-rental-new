@@ -1,0 +1,7 @@
+<h1>Car:</h1>
+<p><%= @car.id %></p>
+<p><%= @car.size %></p>
+<p><%= @car.availability %></p>
+
+<!-- new review link -->
+<%= link_to 'Book car', new_car_reservation_path(@car) %>

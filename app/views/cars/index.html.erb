@@ -1,0 +1,6 @@
+<h1>List of cars</h1>
+<% @cars.each do |car| %>
+<ul>
+  <li><%= link_to car.size, car.availability, car_path(car) %></li>
+</ul>
+<% end %>
